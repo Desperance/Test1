@@ -99,7 +99,7 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
         return super.onOptionsItemSelected(item);
     }
 
-
+//just a comment
     void onLocationChanged( ) {
                 updateWeather();
                 getLoaderManager().restartLoader(FORECAST_LOADER, null, this);
